@@ -4,7 +4,8 @@
   "info": {
     "singularName": "home-feed",
     "pluralName": "home-feeds",
-    "displayName": "Home Feed"
+    "displayName": "Home Feed",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -28,6 +29,9 @@
     },
     "feedItems": {
       "type": "json"
+    },
+    "text": {
+      "type": "string"
     }
   }
 }
