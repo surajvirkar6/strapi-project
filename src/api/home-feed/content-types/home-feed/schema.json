@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_feeds",
+  "info": {
+    "singularName": "home-feed",
+    "pluralName": "home-feeds",
+    "displayName": "Home Feed"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "feedId": {
+      "type": "string"
+    },
+    "action_url": {
+      "type": "string"
+    },
+    "title_text": {
+      "type": "string"
+    },
+    "thumbnail_url": {
+      "type": "string"
+    },
+    "hero_image_url": {
+      "type": "string"
+    },
+    "feedItems": {
+      "type": "json"
+    }
+  }
+}
